@@ -20,6 +20,6 @@ steps:
     location: 'Central US'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName ARMTest -linkedTemplateUri  https://github.com/xiaolin-momo/AzureRmPipeline-repo/blob/master/'
+    overrideParameters: '-projectName ARMTest -linkedTemplateUri  https://raw.githubusercontent.com/xiaolin-momo/AzureRmPipeline-repo/master'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
