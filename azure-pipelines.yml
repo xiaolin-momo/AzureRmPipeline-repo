@@ -20,5 +20,5 @@ steps:
     location: 'Central US'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName xiaolintest2 -linkedTemplateUri https://raw.githubusercontent.com/xiaolin-momo/AzureRmPipeline-repo/master/CreateWebApp/linkedStorageAccount.json'
+    overrideParameters: '-projectName 'xiaolintest2' -linkedTemplateUri https://raw.githubusercontent.com/xiaolin-momo/AzureRmPipeline-repo/master/CreateWebApp/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
